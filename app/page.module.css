@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  gap: 3rem;
+  margin: 3rem auto;
+  width: 90%;
+  max-width: 75rem;
+}
+
+.slideshow {
+  width: 50rem;
+  height: 25rem;
+}
+
+.hero {
+  color: #fff;
+  font-size: 1rem;
+  padding-top: 6rem;
+}
+
+.hero h1 {
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+}
+
+.cta {
+  font-size: 0.8rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.cta a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #a6e5ce;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.cta a:hover,
+.cta a:active {
+  background-color: #79d9b7;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  color: #ddd6cb;
+  font-size: 1.5rem;
+  max-width: 50rem;
+  width: 90%;
+  margin: 2rem auto;
+  text-align: center;
+}

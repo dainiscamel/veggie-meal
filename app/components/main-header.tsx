@@ -23,7 +23,7 @@ const MainHeader: React.FC = () => {
             <Link href="/meals">Meals</Link>
           </li>
           <li>
-            <Link href="/community">Veggies Community</Link>
+            <Link href="/community">Community</Link>
           </li>
         </ul>
       </nav>
