@@ -1,6 +1,5 @@
 import classes from "./page.module.css";
 import ImageSlideshow from "./components/images/image-slideshow";
-import { usePathname } from "next/navigation";
 import NavLink from "./components/nav-link";
 
 export default function Home() {

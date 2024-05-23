@@ -3,6 +3,7 @@ import Image from "next/image";
 
 import logoImage from "@/assets/logo.png";
 import classes from "./main-header.module.css";
+import NavLink from "./nav-link";
 
 const MainHeader: React.FC = () => {
   return (
@@ -20,10 +21,10 @@ const MainHeader: React.FC = () => {
       <nav className={classes.nav}>
         <ul>
           <li>
-            <Link href="/meals">Meals</Link>
+            <NavLink href="/meals">Meals</NavLink>
           </li>
           <li>
-            <Link href="/community">Community</Link>
+            <NavLink href="/community">Community</NavLink>
           </li>
         </ul>
       </nav>
