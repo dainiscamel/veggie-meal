@@ -30,7 +30,7 @@ export default function ImageSlideshow() {
         prevIndex < images.length - 1 ? prevIndex + 1 : 0
       );
     }, 3000);
-    return clearInterval(interval);
+    return () => clearInterval(interval);
   }, []);
 
   return (
